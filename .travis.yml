@@ -18,7 +18,7 @@ env:
  global:
    - JAVA_OPTS="-XX:MaxPermSize=512m"
  matrix:
-   - SUITE=default
+   - SUITE=hello_world
    #Can add more suites: - SUITE=suite
 
 script:
