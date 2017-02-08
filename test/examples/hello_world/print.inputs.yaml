@@ -1,0 +1,6 @@
+testPrintTextSuccess:
+  inputs:
+    - text: hello
+  description: Tests that print.sl operation finishes with SUCCESS
+  testFlowPath: examples.hello_world.print.print
+  result: SUCCESS
