@@ -1,4 +1,5 @@
 testPrintTextSuccess:
+  testSuites: [default]
   inputs:
     - text: hello
   description: Tests that print.sl operation finishes with SUCCESS
