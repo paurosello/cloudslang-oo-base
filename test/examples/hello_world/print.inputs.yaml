@@ -1,7 +1,15 @@
-testPrintTextSuccess:
+testOperation:
   testSuites: [hello_world]
   inputs:
     - text: hello
   description: Tests that print.sl operation finishes with SUCCESS
-  testFlowPath: examples.hello_world.print.print
+  testFlowPath: examples.hello_world.print
+  result: SUCCESS
+
+testFlow:
+  testSuites: [hello_world]
+  inputs:
+    - text: hello
+  description: Tests that print.sl operation finishes with SUCCESS
+  testFlowPath: examples.hello_world.hello_world
   result: SUCCESS
